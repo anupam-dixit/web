@@ -1,0 +1,24 @@
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+
+
+dependencies {
+	api 'com.android.support:design:27.+'
+	api 'com.android.support:appcompat-v7:27.+'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+	compile 'joda-time:joda-time:2.10.10'
+    compile 'com.snatik:storage:2.1.0'
+    compile 'com.valdesekamdem.library:md-toast:0.9.0'
+}
+
+
+<style name="Theme.Anupam" parent="Base.Theme.AppCompat">
+		<item name="android:navigationBarColor">#01FFE8</item>
+        <item name="android:windowBackground">#11aa22</item>
+		<item name="colorPrimary">#01FFE8</item> 
+		<item name="colorPrimaryDark">#88E116</item> 
+		<item name="colorAccent">#D25DE2</item>
+    </style>
