@@ -19,15 +19,14 @@ setCookie(key, keyValue, '-1');
 
 function taggerjs()
     {
-      alert("from cdn");
-      if(getCookie('ut')==""||getCookie('ut')==null)
+      if ( getCookie ('ut') == "" || getCookie ('ut') == null )
       {
-       // alert("setting");
-        setCookie('ut',''+Math.floor(Math.random() * 100000000) + 1,365 );
+      // alert("setting");
+      setCookie ('ut', '' + Math.floor (Math.random () * 100000000) + 1, 365);
       }
       else
       {
-       // alert("cookie already set");
+      // alert("cookie already set");
       }
     }
 
