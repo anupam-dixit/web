@@ -1,9 +1,23 @@
-function setCookie(key, value, expiry) 
+function setCookie(key, value, expiry)
 {
 var expires = new Date();
 expires.setTime(expires.getTime() + (expiry * 24 * 60 * 60 * 1000));
 document.cookie = key + '=' + value + ';expires=' + expires.toUTCString();
 }
+
+function quan_add(n)
+				{
+				  var pre=document.getElementById("field_quan").value;
+				  var now=parseInt(pre)+1;
+				  document.getElementById("field_quan").value=now;
+				}
+function quan_sub(n)
+				{
+				  var pre=document.getElementById("field_quan").value;
+				  var now=parseInt(pre)-1;
+				  if(now>0)
+				  {document.getElementById("field_quan").value=now;}
+				}
 
 function getCookie(key)
 {
