@@ -10,6 +10,11 @@ label{
   font-weight:bolder;
 }
 
+h-scrollable {
+  overflow: auto;
+  white-space: nowrap;
+}
+
   #overlay {
   position: fixed; /* Sit on top of the page content */
   display: block; /* Hidden by default */
