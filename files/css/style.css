@@ -10,7 +10,7 @@ label{
   font-weight:bolder;
 }
 
-h-scrollable {
+.h-scrollable {
   overflow: auto;
   white-space: nowrap;
 }
