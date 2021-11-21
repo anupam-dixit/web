@@ -10,6 +10,11 @@ label{
   font-weight:bolder;
 }
 
+.h-scrollable {
+  overflow: auto;
+  white-space: nowrap;
+}
+
   #overlay {
   position: fixed; /* Sit on top of the page content */
   display: block; /* Hidden by default */
@@ -241,3 +246,8 @@ margin-top: -.3rem;
 }
 }
 }
+
+.bc-icons-2 .breadcrumb-item + .breadcrumb-item::before {
+  content: none; }
+  .bc-icons-2 .breadcrumb-item.active {
+  color: rgb(89,95,97) }
