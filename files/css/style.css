@@ -159,6 +159,7 @@ label{
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
+  pointer-events: none;  /* Block Image download */
 }
 
 .number-input input[type="number"] {
