@@ -27,6 +27,16 @@ $.ajax({
 });
 ``` 
 
-Bottom Inclusion
-``` html
+## OnClick 
+``` jquery
+$("#ic_loc").click(function() {
+  
+});
 ``` 
+
+## OnReady
+‛‛‛jquery
+$(document).ready(function() {
+  
+});
+‛‛‛
