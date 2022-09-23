@@ -35,7 +35,7 @@ $("#ic_loc").click(function() {
 ``` 
 
 ## OnReady
-‛‛‛jquery
+‛‛‛ jquery
 $(document).ready(function() {
   
 });
