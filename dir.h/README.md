@@ -43,6 +43,15 @@ $(document).ready(function() {
 
 ## FileUpload
 ``` html
+ <script src="https://cdn.jsdelivr.net/npm/dropzone@5.9.3/dist/dropzone.min.js"></script>
+ <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/dropzone@5.9.3/dist/dropzone.min.css"
+    type="text/css"
+/>
+``` 
+
+``` html
 <form action="/admin/action/rec_upload_album.php"
   class="dropzone"
   id="myDropzoneUpToAlbum">
