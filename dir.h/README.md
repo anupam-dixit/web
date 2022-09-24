@@ -41,7 +41,7 @@ $(document).ready(function() {
 });
 ```
 
-## OnReady
+## FileUpload
 ``` html
 <form action="/admin/action/rec_upload_album.php"
   class="dropzone"
